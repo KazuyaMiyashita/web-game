@@ -6,5 +6,6 @@ lazy val root = project
     name := "web-game",
     version := "0.1.0-SNAPSHOT",
     scalaVersion := "3.2.2",
+    libraryDependencies += zioHttp,
     libraryDependencies += scalaTest % Test
   )
